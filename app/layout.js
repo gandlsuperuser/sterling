@@ -15,9 +15,24 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  const organization = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "Sterling Wellhead",
+    url: process.env.NEXT_PUBLIC_SITE_URL || "https://sterlingwellhead.com",
+    email: "sales@sterlingwellhead.com",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "217 Main St",
+      addressLocality: "Jourdanton",
+      addressRegion: "TX",
+      postalCode: "78026",
+      addressCountry: "US",
+    },
+  };
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organization).replace(/</g, "\\u003c") }} />{children}</body>
     </html>
   );
 }

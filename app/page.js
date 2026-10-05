@@ -22,7 +22,7 @@ export default function Home() {
       <header className="site-header">
         <a className="brand" href="#top" aria-label="Sterling Wellhead home"><Mark /><span>STERLING<small>WELLHEAD</small></span></a>
         <nav aria-label="Primary navigation">
-          <a href="#company">Company</a><a href="#solutions">Solutions</a><a href="#inventory">Inventory</a><a href="#contact">Contact</a>
+          <a href="#company">Company</a><a href="#solutions">Solutions</a><a href="#inventory">Inventory</a><a href="/blog">Insights</a><a href="#contact">Contact</a>
         </nav>
         <a className="header-cta" href="#inventory">View inventory <span>↗</span></a>
       </header>
@@ -63,7 +63,7 @@ export default function Home() {
 
       <section className="contact" id="contact"><div><p className="eyebrow"><span /> NEED A SPECIFIC CONFIGURATION?</p><h2>Let’s get your next<br />job moving.</h2></div><a className="circle-cta" href="mailto:sales@sterlingwellhead.com"><span>CONTACT<br />STERLING</span><b>↗</b></a></section>
 
-      <footer><a className="brand footer-brand" href="#top"><Mark /><span>STERLING<small>WELLHEAD</small></span></a><div className="footer-nav"><div><b>Navigate</b><a href="#company">Company</a><a href="#solutions">Solutions</a><a href="#inventory">Inventory</a></div><div><b>Connect</b><a href="mailto:sales@sterlingwellhead.com">Sales inquiries</a><a href="tel:+10000000000">Call Sterling</a></div></div><div className="footer-bottom"><span>© {new Date().getFullYear()} Sterling Wellhead</span><span>Pressure-control equipment &amp; field support</span><a href="#top">Back to top ↑</a></div></footer>
+      <footer><a className="brand footer-brand" href="#top"><Mark /><span>STERLING<small>WELLHEAD</small></span></a><div className="footer-nav"><div><b>Navigate</b><a href="#company">Company</a><a href="#solutions">Solutions</a><a href="#inventory">Inventory</a><a href="/blog">Insights</a></div><div><b>Connect</b><a href="mailto:sales@sterlingwellhead.com">Sales inquiries</a><a href="tel:+10000000000">Call Sterling</a></div></div><div className="footer-bottom"><span>© {new Date().getFullYear()} Sterling Wellhead</span><span>Pressure-control equipment &amp; field support</span><a href="#top">Back to top ↑</a></div></footer>
     </main>
   );
 }

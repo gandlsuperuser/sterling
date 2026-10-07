@@ -51,7 +51,7 @@ export default function Home() {
       <section className="solutions section" id="solutions">
         <div className="section-kicker light"><span>02</span><p>CORE SOLUTIONS</p></div>
         <div className="solutions-head"><h2>Equipment that earns<br />its place on site.</h2><p>Purpose-built components for the pressure, movement, and pace of modern wellsite operations.</p></div>
-        <div className="solution-grid">{solutions.map((item, index) => <article key={item.title}><div className={`product-visual visual-${index + 1}`} role={index > 0 ? "img" : undefined} aria-label={index === 1 ? "Sterling red FIG 1502 union pipe" : index === 2 ? "Sterling red high-pressure swivel joints" : undefined}><span>{String(index + 1).padStart(2, "0")}</span><div className="valve-glyph"><i /><i /><i /></div></div><div className="product-copy"><small>{item.tag}</small><h3>{item.title}</h3><p>{item.text}</p><strong>{item.spec}</strong></div></article>)}</div>
+        <div className="solution-grid">{solutions.map((item, index) => <article key={item.title}><div className={`product-visual visual-${index + 1}`} role="img" aria-label={index === 0 ? "Cross-section technical drawing of a FIG 1502 plug valve" : index === 1 ? "Sterling red FIG 1502 union pipe" : "Sterling red high-pressure swivel joints"}><span>{String(index + 1).padStart(2, "0")}</span><div className="valve-glyph"><i /><i /><i /></div></div><div className="product-copy"><small>{item.tag}</small><h3>{item.title}</h3><p>{item.text}</p><strong>{item.spec}</strong></div></article>)}</div>
       </section>
 
       <Inventory />

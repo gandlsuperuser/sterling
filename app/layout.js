@@ -3,12 +3,12 @@ import "./globals.css";
 export const metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://sterlingwellhead.com"),
   title: { default: "Sterling Wellhead | Pressure-Control Equipment", template: "%s | Sterling Wellhead" },
-  description: "Field-ready wellhead and high-pressure flow equipment, backed by responsive service and verified inventory.",
+  description: "Quality wellhead and high-pressure flow equipment with standard parts in local inventory and select custom parts available in as little as 10–14 days.",
   openGraph: {
     type: "website",
     siteName: "Sterling Wellhead",
     title: "Sterling Wellhead | Pressure-Control Equipment",
-    description: "Field-ready wellhead and high-pressure flow equipment, backed by responsive service and verified inventory.",
+    description: "Standard pressure-control parts in local inventory, with select custom parts available in as little as 10–14 days.",
     images: [{ url: "/images/sterling-hero.png", width: 2048, height: 1024, alt: "Sterling Wellhead pressure-control equipment" }],
   },
   twitter: { card: "summary_large_image" },

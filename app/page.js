@@ -31,12 +31,12 @@ export default function Home() {
       <section className="hero" id="top">
         <div className="hero-shade" />
         <div className="hero-content">
-          <p className="eyebrow"><span /> PRESSURE-CONTROL EQUIPMENT</p>
-          <h1>Built for pressure.<br /><em>Ready for the field.</em></h1>
-          <p className="hero-copy">Sterling supplies wellhead and high-pressure flow equipment for crews who value speed, clarity, and dependable performance.</p>
+          <p className="eyebrow"><span /> LOCAL STOCK + RAPID CUSTOM</p>
+          <h1>Quality meets speed.<br /><em>Stocked local. Built fast.</em></h1>
+          <p className="hero-copy">Standard pressure-control parts are available from local inventory. Need a custom configuration? Sterling can deliver select custom parts in as little as 10–14 days.</p>
           <div className="hero-actions"><a className="button button-red" href="#inventory">Explore inventory <b>→</b></a><a className="text-link" href="#company">Why Sterling <span>↓</span></a></div>
         </div>
-        <div className="hero-stats"><div><b>10K</b><span>PSI rated equipment</span></div><div><b>48</b><span>Units in current stock</span></div><div><b>06</b><span>Traceable line items</span></div></div>
+        <div className="hero-stats"><div><b>LOCAL</b><span>Standard parts in stock</span></div><div><b>48</b><span>Units in current inventory</span></div><div><b>10–14</b><span>Day custom delivery available</span></div></div>
         <span className="hero-index">01 / 04</span>
       </section>
 

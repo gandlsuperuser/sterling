@@ -20,7 +20,8 @@ export default function RootLayout({ children }) {
     "@type": "Organization",
     name: "Sterling Wellhead",
     url: process.env.NEXT_PUBLIC_SITE_URL || "https://sterlingwellhead.com",
-    email: "PTX@BTX-Supply.com",
+    email: "sales@sterlingwellhead.com",
+    telephone: "+1-512-373-0384",
     address: {
       "@type": "PostalAddress",
       streetAddress: "217 Main St",

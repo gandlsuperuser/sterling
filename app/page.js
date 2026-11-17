@@ -23,7 +23,7 @@ export default function Home() {
       <header className="site-header">
         <a className="brand" href="#top" aria-label="Sterling Wellhead home"><Mark /><span>STERLING<small>WELLHEAD</small></span></a>
         <nav aria-label="Primary navigation">
-          <a href="#company">Company</a><a href="#solutions">Solutions</a><a href="#inventory">Inventory</a><a href="/blog">Insights</a><a href="#contact">Contact</a>
+          <a href="#company">Company</a><a href="#solutions">Solutions</a><a href="#inventory">Inventory</a><a href="/blog">Insights</a><a href="/faq">FAQ</a><a href="#contact">Contact</a>
         </nav>
         <a className="header-cta" href="#inventory">View inventory <span>↗</span></a>
       </header>
@@ -64,7 +64,7 @@ export default function Home() {
 
       <section className="inquiry" id="contact"><div className="inquiry-intro"><p className="eyebrow"><span /> REQUEST EQUIPMENT</p><h2>Tell us what<br />the job needs.</h2><p>Share the application, specification, and timing. Sterling will review the request and follow up with availability and next steps.</p><div className="contact-details"><a href="mailto:sales@sterlingwellhead.com"><small>EMAIL</small><strong>sales@sterlingwellhead.com</strong></a><a href="tel:+15123730384"><small>PHONE</small><strong>512-373-0384</strong></a><a href="https://maps.google.com/?q=217+Main+St,+Jourdanton,+TX+78026" target="_blank" rel="noreferrer"><small>LOCATION</small><strong>217 Main St<br />Jourdanton, TX 78026</strong></a></div></div><InquiryForm /></section>
 
-      <footer><a className="brand footer-brand" href="#top"><Mark /><span>STERLING<small>WELLHEAD</small></span></a><div className="footer-nav"><div><b>Navigate</b><a href="#company">Company</a><a href="#solutions">Solutions</a><a href="#inventory">Inventory</a><a href="/blog">Insights</a></div><div><b>Connect</b><a href="mailto:sales@sterlingwellhead.com">sales@sterlingwellhead.com</a><a href="tel:+15123730384">512-373-0384</a><a href="https://maps.google.com/?q=217+Main+St,+Jourdanton,+TX+78026" target="_blank" rel="noreferrer">217 Main St<br />Jourdanton, TX 78026</a></div></div><div className="footer-bottom"><span>© {new Date().getFullYear()} Sterling Wellhead</span><span>Jourdanton, Texas</span><a href="#top">Back to top ↑</a></div></footer>
+      <footer><a className="brand footer-brand" href="#top"><Mark /><span>STERLING<small>WELLHEAD</small></span></a><div className="footer-nav"><div><b>Navigate</b><a href="#company">Company</a><a href="#solutions">Solutions</a><a href="#inventory">Inventory</a><a href="/blog">Insights</a><a href="/faq">FAQ</a></div><div><b>Connect</b><a href="mailto:sales@sterlingwellhead.com">sales@sterlingwellhead.com</a><a href="tel:+15123730384">512-373-0384</a><a href="https://maps.google.com/?q=217+Main+St,+Jourdanton,+TX+78026" target="_blank" rel="noreferrer">217 Main St<br />Jourdanton, TX 78026</a></div></div><div className="footer-bottom"><span>© {new Date().getFullYear()} Sterling Wellhead</span><span>Jourdanton, Texas</span><a href="#top">Back to top ↑</a></div></footer>
     </main>
   );
 }
